@@ -298,3 +298,110 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #0088cc;
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%; /* Slightly smaller base font size */
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .navbar .logo {
+        font-size: 2rem;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.6rem;
+    }
+
+    .btn-primary {
+        font-size: 1.6rem;
+        padding: 10px 25px;
+    }
+
+    .about, .projects, .skills, .contact {
+        padding: 6rem 2rem;
+    }
+
+    .project-cards, .project-cards2, .skill-cards {
+        flex-direction: column;
+    }
+
+    .project-card, .skill-card {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 50%; /* Even smaller base font size */
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar .logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-links {
+        gap: 5px;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    .hero-img {
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .btn-primary {
+        font-size: 1.4rem;
+        padding: 8px 20px;
+    }
+
+    .about, .projects, .skills, .contact {
+        padding: 5rem 1rem;
+    }
+
+    .about h2, .projects h2, .skills h2, .contact h2 {
+        font-size: 2.8rem;
+    }
+
+    .project-card h3, .skill-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .project-card p, .skill-card p {
+        font-size: 1.4rem;
+    }
+}
