@@ -184,6 +184,11 @@ header {
     flex: 1;
     max-width: 30rem;
     text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
+}
+.project-card:hover {
+    transform: scale(1.2);
 }
 
 .project-card img {
@@ -249,6 +254,11 @@ header {
     flex: 1;
     max-width: 18rem;
     text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.skill-card:hover {
+    transform: scale(1.2);
 }
 
 .skill-card h3 {
